@@ -1,26 +1,22 @@
 <main>
-  <header class="header">
-    <a routerLink="#home" class="logo">Yassine <span>Rezgui</span> </a>
-    <box-icon name="menu" class="bx bx-menu" id="menu-icon"></box-icon>
 
-    <nav class="navbar">
-      <a routerLink="home" class="active">Home</a>
-      <a routerLink="/about">About</a>
-      <a routerLink="/projects">Projects</a>
-      <a routerLink="/contact">Contact Me</a>
-    </nav>
-  </header>
+<app-navbar></app-navbar>
 
   <section class="home" id="home">
     <div class="home-content">
-      <h1> Hi, I'm <span>Yassine Rezgui</span> </h1>
-      <h3 class="text-animation"> I'm a Software Developer. <span class="typed-text"></span> </h3>
+      <h1>Hi, I'm <span>Yassine Rezgui</span></h1>
+      <h3 class="text-animation">
+        I'm a Software Developer. <span class="typed-text"></span>
+      </h3>
       <p>
-        I am a passionate and creative software developer with a strong focus on building innovative solutions and solving complex problems. With a dedication to continuous learning and a love for clean, efficient code, I strive to deliver high-quality software that makes a difference.
+        I am a passionate and creative software developer with a strong focus on
+        building innovative solutions and solving complex problems. With a
+        dedication to continuous learning and a love for clean, efficient code,
+        I strive to deliver high-quality software that makes a difference.
       </p>
-      <div class="home-img">
-        <img src="" alt="">
-      </div>
+
+
+
 
       <div class="btn-group">
         <a href="#" class="btn">Download CV</a>
@@ -28,11 +24,14 @@
       </div>
     </div>
     <div class="social-icons">
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <a href=""><box-icon type='logo' name='linkedin'></box-icon></a>
+      <a href=""><box-icon type='logo' name='github'></box-icon></a>
+      <a href=""><box-icon type='logo' name='discord'></box-icon></a>
+
     </div>
 
+    <div class="home-img">
+      <img src="../../../assets/images/coding.jpg" alt="">
+    </div>
   </section>
 </main>
